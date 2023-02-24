@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Series</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/7e7abb17d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Mario Più</h1>
+        <h3>The Best Of Cinema & TV</h3>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Series</a></li>
+          <li><a href="#">My List</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="search">
+      <h3>SEARCH:</h3>
+      <input
+        name="input-search"
+        type="text"
+        class="input-search"
+        placeholder="Search for a TV series"
+      />
+    </div>
+
+    <section class="filter">
+      <form action="">
+        <label for="gen">GENRE:</label>
+        <select name="genres" id="gen">
+          <option class="genre" value="All">All genres</option>
+        </select>
+      </form>
+
+      <form action="">
+        <label for="avg">RATING:</label>
+        <select name="vote-average" id="avg">
+          <option class="vote-avg" value="All" selected="selected">
+            All ratings
+          </option>
+          <option class="vote-avg" value="Great">Great</option>
+          <option class="vote-avg" value="Good">Good</option>
+          <option class="vote-avg" value="Sufficient">Sufficient</option>
+          <option class="vote-avg" value="Poor">Poor</option>
+        </select>
+      </form>
+    </section>
+
+    <main class="tv">
+      <!-- <h2>Popular</h2> -->
+      <section class="popular"></section>
+    </main>
+
+    <footer>
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" />
+          <br />
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>321, Sunset Boulevard<br />Bel Air, LA</p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
